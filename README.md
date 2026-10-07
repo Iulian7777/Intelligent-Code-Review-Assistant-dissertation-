@@ -20,11 +20,14 @@ Open your first terminal and navigate to the backend directory:
 cd code-review-backend
 npm install
 node server.js
+```
 
-## 2. Start the Frontend (React UI)  Open your second terminal and navigate to the frontend directory:
-
+### 2. Start the Frontend (React UI)
+Open your second terminal and navigate to the frontend directory:
+```bash
 cd code-review-frontend
 npm install
 npm start
+```
 
  
