@@ -1,0 +1,25 @@
+.app-container { font-family: Arial, sans-serif; padding: 20px; }
+.top-nav { display: flex; justify-content: space-between; align-items: center; background-color: #7a6b6b; color: white; padding: 10px 20px; border-radius: 5px; }
+.upload-btn { padding: 10px 20px; background-color: #9a7b7b; color: white; border: none; cursor: pointer; border-radius: 5px; font-weight: bold;}
+.upload-btn:hover { background-color: #b59595; }
+
+.main-content { display: flex; gap: 20px; margin-top: 20px; height: 75vh; }
+.left-panel, .right-panel { flex: 1; display: flex; flex-direction: column; }
+h2 { margin-top: 0; color: #333; }
+
+.code-editor { flex: 1; background-color: #c9caca; border: none; padding: 15px; border-radius: 5px; resize: none; font-family: monospace; font-size: 14px; }
+.right-panel { background-color: #e5dcdc; padding: 15px; border-radius: 5px; }
+
+.tabs { display: flex; gap: 10px; margin-bottom: 15px; }
+.tab, .active-tab { padding: 10px 15px; cursor: pointer; border: none; border-radius: 5px; font-weight: bold; }
+.tab { background-color: #ccc; color: #333; }
+.active-tab { background-color: #9a7b7b; color: white; }
+
+.tab-content { flex: 1; background-color: #bfaeae; padding: 15px; border-radius: 5px; display: flex; flex-direction: column; }
+.reviewer-form { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.reviewer-form label { font-weight: bold; color: #333; }
+.reviewer-form textarea, .reviewer-form select { padding: 10px; border: none; background-color: #dcb37b; border-radius: 3px; resize: vertical; }
+.reviewer-form textarea { min-height: 50px; }
+
+.submit-btn { margin-top: auto; padding: 15px; background-color: #7a6b6b; color: white; border: none; cursor: pointer; border-radius: 5px; font-weight: bold; font-size: 16px; }
+.submit-btn:hover { background-color: #5c5050; }
